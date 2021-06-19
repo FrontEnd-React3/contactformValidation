@@ -139,12 +139,14 @@ textarea {
   transition: 0.2s;
   width: 100%;
 }
-.button:hover {
-  letter-spacing: 2px;
+.button:hover, .inputter:hover {
+  letter-spacing: 2px;  transition: all 0.5s;
+
 }
+/* 
 .error::placeholder {
   color: #ff4d4d;
-}
+} */
 
 .form-message {
   margin-top: 10px;
